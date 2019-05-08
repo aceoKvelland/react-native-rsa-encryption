@@ -47,7 +47,13 @@
 ```javascript
 import RNRsaEncryption from 'react-native-rsa-encryption';
 
-// TODO: What to do with the module?
-RNRsaEncryption;
+// To generate key pairs, (it will return public key in base64 encoded format)
+RNRsaEncryption.generateKeyPair(suucessCallback, errorCallback);
+
+// To encrypt a string, (it will return encrypted string with public key encrypted aes secret key)
+RNRsaEncryption.encryptString("string to be encrypt", "public key to encrypt in base 64 encoded format",suucessCallback, errorCallback);
+
+// To decrypt a string, (it will return decrypted string)
+RNRsaEncryption.decryptString("encrypted string", "encrypted secret key",suucessCallback, errorCallback);
 ```
   
