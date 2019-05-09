@@ -1,6 +1,6 @@
 {
   "name": "@akeo/react-native-rsa-encryption",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "react native plugin for peer to peer encryption and decryption using RSA keys",
   "main": "index.js",
   "scripts": {
