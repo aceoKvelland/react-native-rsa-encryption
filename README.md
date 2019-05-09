@@ -1,6 +1,8 @@
 
 # react-native-rsa-encryption
 
+This plugin aims to provide peer to peer security. By using this plugin user can generate public and private key pairs. Public key can be sent over the network to the server so that server can encrypt response parameters using client's public key and client can decrypt that reponse using own private key and vice versa. It also has one more layer of security using AES secret key, the string will be encrypt using this key and secret key will be encrypted using public key, hence if server/client need to decrypt the string, secret key need to be decrypt using private key and string can be decrypt using decrypted secret key.
+
 ## Getting started
 
 `$ npm install @akeo/react-native-rsa-encryption --save`
