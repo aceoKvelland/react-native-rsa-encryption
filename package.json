@@ -1,18 +1,35 @@
 {
-  "name": "react-native-rsa-encryption",
+  "name": "@akeo/react-native-rsa-encryption",
   "version": "1.0.0",
-  "description": "",
+  "description": "react native plugin for peer to peer encryption and decryption using RSA keys",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aceoKvelland/react-native-rsa-encryption.git"
+  },
   "keywords": [
-    "react-native"
+    "react-native",
+    "react",
+    "rsa-encryption",
+    "encryption",
+    "rsa-decryption",
+    "decryption",
+    "public-key",
+    "private-key",
+    "key",
+    "rsa"
   ],
-  "author": "",
-  "license": "",
+  "author": "Akeo Software Solution Pvt Ltd",
+  "license": "ISC",
   "peerDependencies": {
     "react-native": "^0.41.2",
     "react-native-windows": "0.41.0-rc.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/aceoKvelland/react-native-rsa-encryption/issues"
+  },
+  "homepage": "https://github.com/aceoKvelland/react-native-rsa-encryption#readme"
 }
